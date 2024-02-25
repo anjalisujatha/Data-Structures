@@ -5,7 +5,7 @@ def tower_of_hanoi(n):
     Returns:
      list_list_int32
     """
-    # Write your code here.
+    
     result = []
     def transfer_disk(n, source, destination, auxiliary):
         if n == 1:
