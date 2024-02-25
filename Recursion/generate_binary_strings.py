@@ -15,3 +15,4 @@ def bshelper(slate, n, result):
     else:
         bshelper(slate + "0", n-1, result)
         bshelper(slate + "1", n-1, result)
+        
