@@ -7,7 +7,7 @@ def calculate_power(a, b):
     Returns:
      int32
     """
-    # Write your code here.
+    
     if b == 0:
         return 1
     elif b == 1:
@@ -18,4 +18,3 @@ def calculate_power(a, b):
         return result
     else:
         return (a * result) % MOD
-        
